@@ -1,0 +1,95 @@
+/* SEARCH AREA STYLING */
+.search-area {
+	text-align: center;
+	margin-top: 225px;
+	float: none;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#search-field {
+	width: 300px;
+}
+
+#search-button {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 800;
+}
+
+/* RESULTS HEADER STYLING */
+.results-header {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 24px;
+	margin-top: 15px;
+	text-align: center;
+}
+
+/* TABLE STYLING */
+.results-table {
+	margin: 0 auto;
+	width: 600px;
+	margin-top: 30px;
+}
+
+td {
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 55px;
+	padding-right: 55px;
+}
+
+/* ROW STYLING */
+.header {
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+	font-size: 15px;
+}
+
+.results-table {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.row {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.content_row:hover {
+	background-color: #EEEEEE;
+}
+
+.song-img {
+	border-radius: 10px;
+}
+
+.song-name {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13px;
+	width: 150px;
+}
+
+.song-link {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+}
+
+/* FAVORITES STYLING */
+.fixed {
+	position: fixed;
+	margin-left: 1%;
+	left: 0;
+	top: 0;
+}
+
+.favorites-tag {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 800;
+}
+
+
+/* mozkit */
+input::-webkit-input-placeholder {
+	font-family: 'Open Sans', sans-serif;
+}
