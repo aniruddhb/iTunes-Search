@@ -9,6 +9,8 @@
 		<title>iTunes Store Search</title>
 
 		<!-- Latest compiled and minified CSS -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 
 		<!-- Font Awesome Theme -->
@@ -21,18 +23,34 @@
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 
 		<link rel="stylesheet" type="text/css" href="style.css">
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
 		<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,800,700' rel='stylesheet' type='text/css'>
-		<script src="script.js"></script>
 	</head>
 
-	<div class="search-area form-inline">
-		<input class="form-control" id="search-field" placeholder="Search for music ... ">
-		<button class="btn btn-success" id="search-button">Search</button>
-	</div>
+	<body>
+		<div class="search-area form-inline">
+			<input class="form-control" id="search-field" placeholder="Search for music ... ">
+			<button class="btn btn-success" id="search-button">Search</button>
+		</div>
 
-	<div class="fixed">
-		<h3 class="favorites-tag">Favorites</h3>
-	</div>
+		<!-- favorites list -->
+		<div class="favorites"> 
+			<div class="fixed">
+				<h3 class="favorites-tag">Favorites</h3>
+				<img class="favorites-checkmark" src="checkmark.png">
+				<img class="favorites-delete" src="delete.png">
+			</div>
+		</div>
+
+		<!-- audio tag -->
+		<audio id="thirty-second-preview" src="" preload="auto">
+
+		</audio>
+
+		<!-- table goes here -->
+		<div class="content"></div>
+	</body>
+
+	<!-- custom jquery script -->
+	<script src="script.js"></script>
 
 </html>
